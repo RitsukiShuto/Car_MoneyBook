@@ -30,9 +30,9 @@ class _NavigationBar extends State<NavigationBar> {
   int _selectedIndex = 0;
   final _pageWidgets = [
     PostList(),
-    // timeLine(),
-    // history(),
-    // settings(),
+    timeLine(),
+    history(),
+    settings(),
   ];
 
   @override
