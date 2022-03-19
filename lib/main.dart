@@ -1,6 +1,10 @@
+// import 'dart:html';
 import 'package:flutter/material.dart';
+
 import 'package:flutter_application_1/home.dart';
 import 'package:flutter_application_1/timeLine.dart';
+import 'package:flutter_application_1/history.dart';
+import 'package:flutter_application_1/settings.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,7 +30,9 @@ class _NavigationBar extends State<NavigationBar> {
   int _selectedIndex = 0;
   final _pageWidgets = [
     PostList(),
-    timeLine(),
+    // timeLine(),
+    // history(),
+    // settings(),
   ];
 
   @override
