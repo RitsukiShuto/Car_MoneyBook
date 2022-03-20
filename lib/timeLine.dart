@@ -1,3 +1,6 @@
+// Created by RitsukiShuto on 2022/03/20.
+// タイムライン画面<timeLine>
+//
 import 'package:flutter/material.dart';
 
 class timeLine_Header extends StatelessWidget {

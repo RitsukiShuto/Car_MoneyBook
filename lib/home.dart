@@ -1,3 +1,6 @@
+// Created by RitsukiShuto on 2022/03/20.
+// ホーム画面<home>
+//
 import 'package:flutter/material.dart';
 
 class _PostsHeader extends StatelessWidget {

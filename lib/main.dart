@@ -1,4 +1,6 @@
-// import 'dart:html';
+// Created by RitsukiShuto on 2022/03/20.
+// NavigationBar{home, timeLine, history, settings}
+//
 import 'package:flutter/material.dart';
 
 import 'package:flutter_application_1/home.dart';
@@ -28,6 +30,7 @@ class NavigationBar extends StatefulWidget {
 
 class _NavigationBar extends State<NavigationBar> {
   int _selectedIndex = 0;
+
   final _pageWidgets = [
     PostList(),
     timeLine(),
